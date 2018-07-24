@@ -7,6 +7,9 @@ UNIVERSALS
 body {
   background: #f4f4f4;
   font-family: "Righteous", cursive;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .fullpageSection {
@@ -242,7 +245,6 @@ PORTFOLIO
 }
 
 .singularProject img {
-  height: 75%;
   width: 100%;
 }
 
@@ -283,6 +285,28 @@ CONTACT
 
 .email:hover {
   opacity: 0.6;
+}
+
+footer {
+  width: 100vw;
+  position: absolute;
+  padding: 2.5rem;
+  background-color: #efefef;
+  font-size: 1 rem;
+  color: #636363;
+  font-family: "Markazi Text", serif;
+  padding-left: 25vw;
+}
+
+footer a {
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  color: #88bbd6;
+}
+
+span.right {
+  float: right;
 }
 
 /*

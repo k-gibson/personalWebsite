@@ -101,17 +101,22 @@ var Index = function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 32
         }
+      }, _react2.default.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        }
       }, _react2.default.createElement("section", {
         "data-id": "main",
         "class": "fullpageSection",
         "data-viewport-min-height": "100",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 34
         }
       }, _react2.default.createElement("div", { className: "starContainer", __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 39
         }
       }, _react2.default.createElement("img", {
         className: "stars",
@@ -119,40 +124,40 @@ var Index = function (_React$Component) {
         alt: "Stars and constellations",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 40
         }
       })), _react2.default.createElement(_Fade2.default, { bottom: true, __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 46
         }
       }, _react2.default.createElement("div", { className: "directory", __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 47
         }
       }, _react2.default.createElement("h1", { className: "title", __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 48
         }
       }, "kathrine gibson"), _react2.default.createElement("div", { className: "mainMenu", __source: {
           fileName: _jsxFileName,
-          lineNumber: 48
+          lineNumber: 49
         }
       }, _react2.default.createElement("a", { href: "#about", className: "menuButton button fromRight", __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 50
         }
       }, "about"), _react2.default.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 53
         }
       }), _react2.default.createElement("a", { href: "#portfolio", className: "menuButton button fromLeft", __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 54
         }
       }, "portfolio"))))), _react2.default.createElement(_reactScrollableAnchor2.default, { id: "about", __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 62
         }
       }, _react2.default.createElement("section", {
         "data-id": "about",
@@ -160,32 +165,11 @@ var Index = function (_React$Component) {
         "data-viewport-min-height": "100",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62
+          lineNumber: 63
         }
-      }, _react2.default.createElement("div", { className: "stickyMcSticky", __source: {
+      }, _react2.default.createElement("div", { className: "header", __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
-        }
-      }, _react2.default.createElement("div", { className: "otherMainMenu", __source: {
-          fileName: _jsxFileName,
-          lineNumber: 68
-        }
-      }, _react2.default.createElement("a", { href: "#about", className: "menuButton button fromRight", __source: {
-          fileName: _jsxFileName,
-          lineNumber: 69
-        }
-      }, "about"), _react2.default.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 72
-        }
-      }), _react2.default.createElement("a", { href: "#portfolio", className: "menuButton button fromLeft", __source: {
-          fileName: _jsxFileName,
-          lineNumber: 73
-        }
-      }, "portfolio"))), _react2.default.createElement("div", { className: "header", __source: {
-          fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 79
         }
       }, "about me"), _react2.default.createElement(_reactShapes.Line, {
         x1: 75,
@@ -196,47 +180,47 @@ var Index = function (_React$Component) {
         strokeWidth: 3,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79
+          lineNumber: 80
         }
       }), _react2.default.createElement("div", { className: "aboutDescription", __source: {
           fileName: _jsxFileName,
-          lineNumber: 87
+          lineNumber: 88
         }
       }, _react2.default.createElement("div", { className: "descriptionTagline", __source: {
           fileName: _jsxFileName,
-          lineNumber: 88
+          lineNumber: 89
         }
       }, "Hello, my name is Kathrine Gibson.", _react2.default.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90
+          lineNumber: 91
         }
       }), "I'm a student who is passionate about using technology to expand my creative process."), _react2.default.createElement("div", { className: "descriptionWords", width: "200", __source: {
           fileName: _jsxFileName,
-          lineNumber: 93
+          lineNumber: 94
         }
       }, _react2.default.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94
+          lineNumber: 95
         }
       }, "I have three goals in life (thus far): find a job that allows me to explore my passions while applying my hard work ethic and innate curiosity to improve my skill set as a programmer, complete a full length Ironman and finally, to build and live in a treehouse."), _react2.default.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101
+          lineNumber: 102
         }
       }), _react2.default.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 102
+          lineNumber: 103
         }
       }, "Front end developing is my cup of tea, but I'm not afraid of back end development to bring ideas to fruition. Beyond programming until my eyeballs fall out, I spend my free time training for triathlons, sneaking in as much time outside as possible, and practicing my social skills."))), _react2.default.createElement("div", { className: "selfPicture", __source: {
           fileName: _jsxFileName,
-          lineNumber: 111
+          lineNumber: 112
         }
       }, _react2.default.createElement("div", { "class": "image-cropper", __source: {
           fileName: _jsxFileName,
-          lineNumber: 112
+          lineNumber: 113
         }
       }, _react2.default.createElement("img", {
         className: "profileImg",
@@ -244,31 +228,31 @@ var Index = function (_React$Component) {
         "class": "rounded",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 113
+          lineNumber: 114
         }
       }))), _react2.default.createElement("a", { href: "/resume", className: "fancyPage", __source: {
           fileName: _jsxFileName,
-          lineNumber: 120
+          lineNumber: 121
         }
       }, " ", "current resume"), _react2.default.createElement("div", { className: "contactWords", __source: {
           fileName: _jsxFileName,
-          lineNumber: 124
+          lineNumber: 125
         }
       }, _react2.default.createElement("a", { href: "mailto:kathrinemgibson@gmail.com", className: "email", __source: {
           fileName: _jsxFileName,
-          lineNumber: 125
+          lineNumber: 126
         }
       }, "kathrinemgibson@gmail.com")), _react2.default.createElement("div", { className: "contactProfiles", __source: {
           fileName: _jsxFileName,
-          lineNumber: 129
+          lineNumber: 130
         }
       }, _react2.default.createElement("ul", { className: "contact", __source: {
           fileName: _jsxFileName,
-          lineNumber: 130
+          lineNumber: 131
         }
       }, _react2.default.createElement("li", { className: "contactli", __source: {
           fileName: _jsxFileName,
-          lineNumber: 131
+          lineNumber: 132
         }
       }, _react2.default.createElement("a", {
         href: "https://github.com/k-gibson/",
@@ -276,7 +260,7 @@ var Index = function (_React$Component) {
         onClick: "ga('send', 'event', 'external page', 'visit', this.href);",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 132
+          lineNumber: 133
         }
       }, _react2.default.createElement("img", {
         src: "./static/img/logos/logo-github.svg",
@@ -285,11 +269,11 @@ var Index = function (_React$Component) {
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 137
+          lineNumber: 138
         }
       }))), _react2.default.createElement("li", { className: "contactli", __source: {
           fileName: _jsxFileName,
-          lineNumber: 145
+          lineNumber: 146
         }
       }, _react2.default.createElement("a", {
         href: "http://www.linkedin.com/in/kathrine-gibson",
@@ -297,7 +281,7 @@ var Index = function (_React$Component) {
         onClick: "ga('send', 'event', 'external page', 'visit', this.href);",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 146
+          lineNumber: 147
         }
       }, _react2.default.createElement("img", {
         src: "./static/img/logos/logo-linkedin.svg",
@@ -306,11 +290,11 @@ var Index = function (_React$Component) {
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 151
+          lineNumber: 152
         }
       }))), _react2.default.createElement("li", { className: "contactli", __source: {
           fileName: _jsxFileName,
-          lineNumber: 159
+          lineNumber: 160
         }
       }, _react2.default.createElement("a", {
         href: "https://twitter.com/kathrineFromCO",
@@ -318,7 +302,7 @@ var Index = function (_React$Component) {
         onClick: "ga('send', 'event', 'external page', 'visit', this.href);",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 160
+          lineNumber: 161
         }
       }, _react2.default.createElement("img", {
         src: "./static/img/logos/logo-twitter.svg",
@@ -327,11 +311,11 @@ var Index = function (_React$Component) {
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 165
+          lineNumber: 166
         }
       }))))))), _react2.default.createElement(_reactScrollableAnchor2.default, { id: "portfolio", __source: {
           fileName: _jsxFileName,
-          lineNumber: 178
+          lineNumber: 179
         }
       }, _react2.default.createElement("section", {
         "data-id": "portfolio",
@@ -339,16 +323,16 @@ var Index = function (_React$Component) {
         "data-viewport-min-height": "100",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 179
+          lineNumber: 180
         }
       }, _react2.default.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 184
+          lineNumber: 185
         }
       }, _react2.default.createElement("div", { className: "header", __source: {
           fileName: _jsxFileName,
-          lineNumber: 185
+          lineNumber: 186
         }
       }, "my portfolio "), _react2.default.createElement(_reactShapes.Line, {
         x1: 75,
@@ -359,111 +343,132 @@ var Index = function (_React$Component) {
         strokeWidth: 3,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 186
+          lineNumber: 187
         }
       })), _react2.default.createElement("section", { className: "projectSection column left", __source: {
           fileName: _jsxFileName,
-          lineNumber: 195
+          lineNumber: 196
         }
       }, _react2.default.createElement("nav", { "class": "projectNav", __source: {
           fileName: _jsxFileName,
-          lineNumber: 196
+          lineNumber: 197
         }
       }, _react2.default.createElement("ul", { className: "projects", __source: {
           fileName: _jsxFileName,
-          lineNumber: 197
+          lineNumber: 198
         }
       }, _react2.default.createElement("li", { className: "projectLinks", __source: {
           fileName: _jsxFileName,
-          lineNumber: 198
+          lineNumber: 199
         }
       }, _react2.default.createElement("a", { href: "#PlanterBox", __source: {
           fileName: _jsxFileName,
-          lineNumber: 199
+          lineNumber: 200
         }
       }, "PlanterBox")), _react2.default.createElement("li", { className: "projectLinks", __source: {
           fileName: _jsxFileName,
-          lineNumber: 201
+          lineNumber: 202
         }
       }, _react2.default.createElement("a", { href: "#SpaceRace", __source: {
           fileName: _jsxFileName,
-          lineNumber: 202
+          lineNumber: 203
         }
       }, "Space Race"))))), _react2.default.createElement("div", { className: "projectList column right", __source: {
           fileName: _jsxFileName,
-          lineNumber: 207
+          lineNumber: 208
         }
       }, _react2.default.createElement("nav", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 208
+          lineNumber: 209
         }
       }, _react2.default.createElement("ul", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 209
+          lineNumber: 210
         }
       }, _react2.default.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 210
+          lineNumber: 211
         }
       }, _react2.default.createElement(_reactScrollableAnchor2.default, { id: "PlanterBox", __source: {
           fileName: _jsxFileName,
-          lineNumber: 211
+          lineNumber: 212
         }
       }, _react2.default.createElement("div", {
         className: "singularProject",
         "data-viewport-min-height": "100",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 212
+          lineNumber: 213
         }
       }, "PlanterBox", _react2.default.createElement("img", {
         src: "/static/img/project-header/PlanterBoxDemoPicture.jpg",
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 217
+          lineNumber: 218
         }
       }), _react2.default.createElement("div", {
         className: "PlanterBox",
         "data-viewport-min-height": "100",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 221
+          lineNumber: 222
         }
       })))), _react2.default.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 228
+          lineNumber: 229
         }
       }, _react2.default.createElement(_reactScrollableAnchor2.default, { id: "SpaceRace", __source: {
           fileName: _jsxFileName,
-          lineNumber: 229
+          lineNumber: 230
         }
       }, _react2.default.createElement("div", {
         className: "singularProject",
         "data-viewport-min-height": "100",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 230
+          lineNumber: 231
         }
       }, "Space Race", _react2.default.createElement("img", {
         src: "/static/img/project-header/SpaceRaceDemoPicture.jpg",
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 235
+          lineNumber: 236
         }
       }), _react2.default.createElement("div", {
         className: "SpaceRace",
         "data-viewport-min-height": "100",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 239
+          lineNumber: 240
         }
-      })))))))))));
+      })))))))))), _react2.default.createElement("footer", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 253
+        }
+      }, "\xA9 2018 Kathrine Gibson", _react2.default.createElement("span", { "class": "right", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 255
+        }
+      }, _react2.default.createElement("a", { href: "mailto:kathrinemgibson@gmail.com", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 256
+        }
+      }, "Email"), "/", _react2.default.createElement("a", { href: "https://github.com/k-gibson/", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 258
+        }
+      }, "GitHub"), "/", _react2.default.createElement("a", { href: "http://www.linkedin.com/in/kathrine-gibson", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 260
+        }
+      }, "LinkedIn")))));
     }
   }]);
 
@@ -471,4 +476,4 @@ var Index = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Index;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2luZGV4LmpzIl0sIm5hbWVzIjpbIkxpbmsiLCJTY3JvbGxhYmxlQW5jaG9yIiwiRmFkZSIsIlJlY3RhbmdsZSIsIkNpcmNsZSIsIkVsbGlwc2UiLCJMaW5lIiwiUG9seWxpbmUiLCJDb3JuZXJCb3giLCJUcmlhbmdsZSIsIkluZGV4IiwiY29sb3IiLCJSZWFjdCIsIkNvbXBvbmVudCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsQUFBTzs7OztBQUNQLEFBQU87Ozs7QUFDUCxBQUFPOzs7O0FBQ1AsQUFDRSxBQUNBLEFBQ0EsQUFDQSxBQUNBLEFBQ0EsQUFDQTs7Ozs7OztJQUdtQixBOzs7Ozs7Ozs7Ozs2QkFDVixBQUNQOzZCQUNFLGNBQUEsU0FBSyxXQUFMLEFBQWU7b0JBQWY7c0JBQUEsQUFDRTtBQURGO09BQUEsa0JBQ0UsY0FBQTs7b0JBQUE7c0JBQUEsQUFDRTtBQURGO0FBQUEseUJBQ0UsY0FBQTs7b0JBQUE7c0JBQUE7QUFBQTtBQUFBLFNBREYsQUFDRSxBQUdBLDREQUFNLE1BQU4sQUFBVyxlQUFjLFNBQXpCLEFBQWlDO29CQUFqQztzQkFKRixBQUlFLEFBQ0E7QUFEQTtrREFDTSxNQUFOLEFBQVcsWUFBVyxTQUF0QixBQUE4QjtvQkFBOUI7c0JBTEYsQUFLRSxBQUNBO0FBREE7a0RBQ00sTUFBTixBQUFXLFVBQVMsU0FBcEIsQUFBNEI7b0JBQTVCO3NCQU5GLEFBTUUsQUFDQTtBQURBOztjQUNBLEFBQ08sQUFDTDtpQkFGRixBQUVVOztvQkFGVjtzQkFQRixBQU9FLEFBS0E7QUFMQTtBQUNFLGtEQUlJLE1BQU4sQUFBVyxxQkFBb0IsS0FBL0IsQUFBbUM7b0JBQW5DO3NCQWJKLEFBQ0UsQUFZRSxBQUVGO0FBRkU7MkJBRUYsY0FBQTs7b0JBQUE7c0JBQUEsQUFDRTtBQURGO0FBQUEseUJBQ0UsY0FBQTttQkFBQSxBQUNVLEFBQ1I7aUJBRkYsQUFFUSxBQUNOO29DQUhGLEFBRzJCOztvQkFI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O0FBREY7QUFBQSx5QkFDRSxjQUFBOztvQkFBQTtzQkFBQSxBQUNFO0FBREY7QUFBQSx5QkFDRSxjQUFBOztvQkFBQTtzQkFBQSxBQUNFO0FBREY7QUFBQSx5QkFDRSxBQUFDLGlEQUFpQixJQUFsQixBQUFzQjtvQkFBdEI7c0JBQUEsQUFDRTtBQURGO3lCQUNFLGNBQUE7bUJBQUEsQUFDWSxBQUNWO29DQUZGLEFBRTJCOztvQkFGM0I7c0JBQUE7QUFBQTtBQUNFLFNBSUE7YUFBQSxBQUNNLEFBQ0o7YUFGRixBQUVNOztvQkFGTjtzQkFMRixBQUtFLEFBSUE7QUFKQTtBQUNFO21CQUdGLEFBQ1ksQUFDVjtvQ0FGRixBQUUyQjs7b0JBRjNCO3NCQVpSLEFBQ0UsQUFDRSxBQUNFLEFBU0UsQUFPTjtBQVBNO0FBQ0UsNkJBTVIsY0FBQTs7b0JBQUE7c0JBQUEsQUFDRTtBQURGO0FBQUEseUJBQ0UsQUFBQyxpREFBaUIsSUFBbEIsQUFBc0I7b0JBQXRCO3NCQUFBLEFBQ0U7QUFERjt5QkFDRSxjQUFBO21CQUFBLEFBQ1ksQUFDVjtvQ0FGRixBQUUyQjs7b0JBRjNCO3NCQUFBO0FBQUE7QUFDRSxTQUlBO2FBQUEsQUFDTSxBQUNKO2FBRkYsQUFFTTs7b0JBRk47c0JBTEYsQUFLRSxBQUlBO0FBSkE7QUFDRTttQkFHRixBQUNZLEFBQ1Y7b0NBRkYsQUFFMkI7O29CQUYzQjtzQkEvTnRCLEFBQ0UsQUFlRSxBQWtKRSxBQUNFLEFBNEJFLEFBQ0UsQUFDRSxBQW1CRSxBQUNFLEFBQ0UsQUFTRSxBQWV2QjtBQWZ1QjtBQUNFOzs7OztFQWxPTyxnQkFBTSxBOztrQkFBcEIsQSIsImZpbGUiOiJpbmRleC5qcz9lbnRyeSIsInNvdXJjZVJvb3QiOiIvVXNlcnMva2F0ZWdpYnNvbi9wb3J0Zm9saW8gMi4wIn0=
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2luZGV4LmpzIl0sIm5hbWVzIjpbIkxpbmsiLCJTY3JvbGxhYmxlQW5jaG9yIiwiRmFkZSIsIlJlY3RhbmdsZSIsIkNpcmNsZSIsIkVsbGlwc2UiLCJMaW5lIiwiUG9seWxpbmUiLCJDb3JuZXJCb3giLCJUcmlhbmdsZSIsIkluZGV4IiwiY29sb3IiLCJSZWFjdCIsIkNvbXBvbmVudCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsQUFBTzs7OztBQUNQLEFBQU87Ozs7QUFDUCxBQUFPOzs7O0FBQ1AsQUFDRSxBQUNBLEFBQ0EsQUFDQSxBQUNBLEFBQ0EsQUFDQTs7Ozs7OztJLEFBR21COzs7Ozs7Ozs7Ozs2QkFDVixBQUNQOzZCQUNFLGNBQUEsU0FBSyxXQUFMLEFBQWU7b0JBQWY7c0JBQUEsQUFDRTtBQURGO09BQUEsa0JBQ0UsY0FBQTs7b0JBQUE7c0JBQUEsQUFDRTtBQURGO0FBQUEseUJBQ0UsY0FBQTs7b0JBQUE7c0JBQUE7QUFBQTtBQUFBLFNBREYsQUFDRSxBQUdBLDREQUFNLE1BQU4sQUFBVyxlQUFjLFNBQXpCLEFBQWlDO29CQUFqQztzQkFKRixBQUlFLEFBQ0E7QUFEQTtrREFDTSxNQUFOLEFBQVcsWUFBVyxTQUF0QixBQUE4QjtvQkFBOUI7c0JBTEYsQUFLRSxBQUNBO0FBREE7a0RBQ00sTUFBTixBQUFXLFVBQVMsU0FBcEIsQUFBNEI7b0JBQTVCO3NCQU5GLEFBTUUsQUFDQTtBQURBOztjQUNBLEFBQ08sQUFDTDtpQkFGRixBQUVVOztvQkFGVjtzQkFQRixBQU9FLEFBS0E7QUFMQTtBQUNFLGtEQUlJLE1BQU4sQUFBVyxxQkFBb0IsS0FBL0IsQUFBbUM7b0JBQW5DO3NCQWJKLEFBQ0UsQUFZRSxBQUVGO0FBRkU7MkJBRUYsY0FBQTs7b0JBQUE7c0JBQUEsQUFDRTtBQURGO0FBQUEseUJBQ0UsY0FBQTs7b0JBQUE7c0JBQUEsQUFDRTtBQURGO0FBQUEseUJBQ0UsY0FBQTttQkFBQSxBQUNVLEFBQ1I7aUJBRkYsQUFFUSxBQUNOO29DQUhGLEFBRzJCOztvQkFIM0I7c0JBQUEsQUFLRTtBQUxGO0FBQ0UseUJBSUEsY0FBQSxTQUFLLFdBQUwsQUFBZTtvQkFBZjtzQkFBQSxBQUNFO0FBREY7O21CQUNFLEFBQ1ksQUFDVjthQUZGLEFBRU0sQUFDSjthQUhGLEFBR007O29CQUhOO3NCQU5KLEFBS0UsQUFDRSxBQU1GO0FBTkU7QUFDRSwyQkFLSixBQUFDLGdDQUFLLFFBQU47b0JBQUE7c0JBQUEsQUFDRTtBQURGO3lCQUNFLGNBQUEsU0FBSyxXQUFMLEFBQWU7b0JBQWY7c0JBQUEsQUFDRTtBQURGO3lCQUNFLGNBQUEsUUFBSSxXQUFKLEFBQWM7b0JBQWQ7c0JBQUE7QUFBQTtTQURGLEFBQ0UsQUFDQSxvQ0FBQSxjQUFBLFNBQUssV0FBTCxBQUFlO29CQUFmO3NCQUFBLEFBQ0U7QUFERjt5QkFDRSxjQUFBLE9BQUcsTUFBSCxBQUFRLFVBQVMsV0FBakIsQUFBMkI7b0JBQTNCO3NCQUFBO0FBQUE7U0FERixBQUNFLEFBR0E7O29CQUFBO3NCQUpGLEFBSUUsQUFDQTtBQURBO0FBQUEsMEJBQ0EsY0FBQSxPQUFHLE1BQUgsQUFBUSxjQUFhLFdBQXJCLEFBQStCO29CQUEvQjtzQkFBQTtBQUFBO1NBckJWLEFBQ0UsQUFZRSxBQUNFLEFBRUUsQUFLRSxBQVFSLGtDQUFBLEFBQUMsaURBQWlCLElBQWxCLEFBQXNCO29CQUF0QjtzQkFBQSxBQUNFO0FBREY7eUJBQ0UsY0FBQTttQkFBQSxBQUNVLEFBQ1I7aUJBRkYsQUFFUSxBQUNOO29DQUhGLEFBRzJCOztvQkFIM0I7c0JBQUEsQUFnQkU7QUFoQkY7QUFDRSx5QkFlQSxjQUFBLFNBQUssV0FBTCxBQUFlO29CQUFmO3NCQUFBO0FBQUE7U0FoQkYsQUFnQkUsQUFDQSw2QkFBQSxBQUFDO1lBQUQsQUFDTSxBQUNKO1lBRkYsQUFFTSxBQUNKO1lBSEYsQUFHTSxBQUNKO1lBSkYsQUFJTSxBQUNKO2dCQUFRLEVBQUUsT0FMWixBQUtVLEFBQVMsQUFDakI7cUJBTkYsQUFNZTs7b0JBTmY7c0JBakJGLEFBaUJFLEFBUUE7QUFSQTtBQUNFLDBCQU9GLGNBQUEsU0FBSyxXQUFMLEFBQWU7b0JBQWY7c0JBQUEsQUFDRTtBQURGO3lCQUNFLGNBQUEsU0FBSyxXQUFMLEFBQWU7b0JBQWY7c0JBQUE7QUFBQTtTQUVFOztvQkFBQTtzQkFGRixBQUVFO0FBQUE7QUFBQSxVQUhKLEFBQ0UsQUFLQSwwR0FBQSxjQUFBLFNBQUssV0FBTCxBQUFlLG9CQUFtQixPQUFsQyxBQUF3QztvQkFBeEM7c0JBQUEsQUFDRTtBQURGO3lCQUNFLGNBQUE7O29CQUFBO3NCQUFBO0FBQUE7QUFBQSxTQURGLEFBQ0UsQUFPQTs7b0JBQUE7c0JBUkYsQUFRRSxBQUNBO0FBREE7QUFBQSwwQkFDQSxjQUFBOztvQkFBQTtzQkFBQTtBQUFBO0FBQUEsU0F4Q04sQUF5QkUsQUFNRSxBQVNFLEFBU0osZ1RBQUEsY0FBQSxTQUFLLFdBQUwsQUFBZTtvQkFBZjtzQkFBQSxBQUNFO0FBREY7eUJBQ0UsY0FBQSxTQUFLLFNBQUwsQUFBVztvQkFBWDtzQkFBQSxBQUNFO0FBREY7O21CQUNFLEFBQ1ksQUFDVjthQUZGLEFBRU0sQUFDSjtpQkFIRixBQUdROztvQkFIUjtzQkFuRE4sQUFpREUsQUFDRSxBQUNFLEFBT0o7QUFQSTtBQUNFLDRCQU1OLGNBQUEsT0FBRyxNQUFILEFBQVEsV0FBVSxXQUFsQixBQUE0QjtvQkFBNUI7c0JBQUEsQUFDRztBQURIO1NBQUEsS0ExREYsQUEwREUsQUFJQSxtQ0FBQSxjQUFBLFNBQUssV0FBTCxBQUFlO29CQUFmO3NCQUFBLEFBQ0U7QUFERjt5QkFDRSxjQUFBLE9BQUcsTUFBSCxBQUFRLG9DQUFtQyxXQUEzQyxBQUFxRDtvQkFBckQ7c0JBQUE7QUFBQTtTQS9ESixBQThERSxBQUNFLEFBSUYsK0NBQUEsY0FBQSxTQUFLLFdBQUwsQUFBZTtvQkFBZjtzQkFBQSxBQUNFO0FBREY7eUJBQ0UsY0FBQSxRQUFJLFdBQUosQUFBYztvQkFBZDtzQkFBQSxBQUNFO0FBREY7eUJBQ0UsY0FBQSxRQUFJLFdBQUosQUFBYztvQkFBZDtzQkFBQSxBQUNFO0FBREY7eUJBQ0UsY0FBQTtjQUFBLEFBQ08sQUFDTDtnQkFGRixBQUVTLEFBQ1A7aUJBSEYsQUFHVTs7b0JBSFY7c0JBQUEsQUFLRTtBQUxGO0FBQ0U7YUFJQSxBQUNNLEFBQ0o7ZUFGRixBQUVRLEFBQ047Z0JBSEYsQUFHUyxBQUNQO2FBSkYsQUFJTTs7b0JBSk47c0JBUE4sQUFDRSxBQUNFLEFBS0UsQUFRSjtBQVJJO0FBQ0UsNEJBT04sY0FBQSxRQUFJLFdBQUosQUFBYztvQkFBZDtzQkFBQSxBQUNFO0FBREY7eUJBQ0UsY0FBQTtjQUFBLEFBQ08sQUFDTDtnQkFGRixBQUVTLEFBQ1A7aUJBSEYsQUFHVTs7b0JBSFY7c0JBQUEsQUFLRTtBQUxGO0FBQ0U7YUFJQSxBQUNNLEFBQ0o7ZUFGRixBQUVRLEFBQ047Z0JBSEYsQUFHUyxBQUNQO2FBSkYsQUFJTTs7b0JBSk47c0JBckJOLEFBZUUsQUFDRSxBQUtFLEFBUUo7QUFSSTtBQUNFLDRCQU9OLGNBQUEsUUFBSSxXQUFKLEFBQWM7b0JBQWQ7c0JBQUEsQUFDRTtBQURGO3lCQUNFLGNBQUE7Y0FBQSxBQUNPLEFBQ0w7Z0JBRkYsQUFFUyxBQUNQO2lCQUhGLEFBR1U7O29CQUhWO3NCQUFBLEFBS0U7QUFMRjtBQUNFO2FBSUEsQUFDTSxBQUNKO2VBRkYsQUFFUSxBQUNOO2dCQUhGLEFBR1MsQUFDUDthQUpGLEFBSU07O29CQUpOO3NCQXJJZCxBQTZCRSxBQUNFLEFBbUVFLEFBQ0UsQUE2QkUsQUFDRSxBQUtFLEFBYVo7QUFiWTtBQUNFLGdDQVlkLEFBQUMsaURBQWlCLElBQWxCLEFBQXNCO29CQUF0QjtzQkFBQSxBQUNFO0FBREY7eUJBQ0UsY0FBQTttQkFBQSxBQUNVLEFBQ1I7aUJBRkYsQUFFUSxBQUNOO29DQUhGLEFBRzJCOztvQkFIM0I7c0JBQUEsQUFLRTtBQUxGO0FBQ0UseUJBSUEsY0FBQTs7b0JBQUE7c0JBQUEsQUFDRTtBQURGO0FBQUEseUJBQ0UsY0FBQSxTQUFLLFdBQUwsQUFBZTtvQkFBZjtzQkFBQTtBQUFBO1NBREYsQUFDRSxBQUNBLGtDQUFBLEFBQUM7WUFBRCxBQUNNLEFBQ0o7WUFGRixBQUVNLEFBQ0o7WUFIRixBQUdNLEFBQ0o7WUFKRixBQUlNLEFBQ0o7Z0JBQVEsRUFBRSxPQUxaLEFBS1UsQUFBUyxBQUNqQjtxQkFORixBQU1lOztvQkFOZjtzQkFQSixBQUtFLEFBRUUsQUFTRjtBQVRFO0FBQ0UsMkJBUUosY0FBQSxhQUFTLFdBQVQsQUFBbUI7b0JBQW5CO3NCQUFBLEFBQ0U7QUFERjt5QkFDRSxjQUFBLFNBQUssU0FBTCxBQUFXO29CQUFYO3NCQUFBLEFBQ0U7QUFERjt5QkFDRSxjQUFBLFFBQUksV0FBSixBQUFjO29CQUFkO3NCQUFBLEFBQ0U7QUFERjt5QkFDRSxjQUFBLFFBQUksV0FBSixBQUFjO29CQUFkO3NCQUFBLEFBQ0U7QUFERjt5QkFDRSxjQUFBLE9BQUcsTUFBSCxBQUFRO29CQUFSO3NCQUFBO0FBQUE7U0FGSixBQUNFLEFBQ0UsQUFFRixnQ0FBQSxjQUFBLFFBQUksV0FBSixBQUFjO29CQUFkO3NCQUFBLEFBQ0U7QUFERjt5QkFDRSxjQUFBLE9BQUcsTUFBSCxBQUFRO29CQUFSO3NCQUFBO0FBQUE7U0F2QlYsQUFnQkUsQUFDRSxBQUNFLEFBSUUsQUFDRSxBQUtSLG1DQUFBLGNBQUEsU0FBSyxXQUFMLEFBQWU7b0JBQWY7c0JBQUEsQUFDRTtBQURGO3lCQUNFLGNBQUE7O29CQUFBO3NCQUFBLEFBQ0U7QUFERjtBQUFBLHlCQUNFLGNBQUE7O29CQUFBO3NCQUFBLEFBQ0U7QUFERjtBQUFBLHlCQUNFLGNBQUE7O29CQUFBO3NCQUFBLEFBQ0U7QUFERjtBQUFBLHlCQUNFLEFBQUMsaURBQWlCLElBQWxCLEFBQXNCO29CQUF0QjtzQkFBQSxBQUNFO0FBREY7eUJBQ0UsY0FBQTttQkFBQSxBQUNZLEFBQ1Y7b0NBRkYsQUFFMkI7O29CQUYzQjtzQkFBQTtBQUFBO0FBQ0UsU0FJQTthQUFBLEFBQ00sQUFDSjthQUZGLEFBRU07O29CQUZOO3NCQUxGLEFBS0UsQUFJQTtBQUpBO0FBQ0U7bUJBR0YsQUFDWSxBQUNWO29DQUZGLEFBRTJCOztvQkFGM0I7c0JBWlIsQUFDRSxBQUNFLEFBQ0UsQUFTRSxBQU9OO0FBUE07QUFDRSw2QkFNUixjQUFBOztvQkFBQTtzQkFBQSxBQUNFO0FBREY7QUFBQSx5QkFDRSxBQUFDLGlEQUFpQixJQUFsQixBQUFzQjtvQkFBdEI7c0JBQUEsQUFDRTtBQURGO3lCQUNFLGNBQUE7bUJBQUEsQUFDWSxBQUNWO29DQUZGLEFBRTJCOztvQkFGM0I7c0JBQUE7QUFBQTtBQUNFLFNBSUE7YUFBQSxBQUNNLEFBQ0o7YUFGRixBQUVNOztvQkFGTjtzQkFMRixBQUtFLEFBSUE7QUFKQTtBQUNFO21CQUdGLEFBQ1ksQUFDVjtvQ0FGRixBQUUyQjs7b0JBRjNCO3NCQWhOcEIsQUFDRSxBQWtKRSxBQUNFLEFBNEJFLEFBQ0UsQUFDRSxBQW1CRSxBQUNFLEFBQ0UsQUFTRSxBQWFsQjtBQWJrQjtBQUNFLG1DQVlwQixjQUFBOztvQkFBQTtzQkFBQTtBQUFBO0FBQUEsU0FFRSw2Q0FBQSxjQUFBLFVBQU0sU0FBTixBQUFZO29CQUFaO3NCQUFBLEFBQ0U7QUFERjt5QkFDRSxjQUFBLE9BQUcsTUFBSCxBQUFRO29CQUFSO3NCQUFBO0FBQUE7U0FERixBQUNFLFVBRUEscUJBQUEsY0FBQSxPQUFHLE1BQUgsQUFBUTtvQkFBUjtzQkFBQTtBQUFBO1NBSEYsQUFHRSxXQUVBLHFCQUFBLGNBQUEsT0FBRyxNQUFILEFBQVE7b0JBQVI7c0JBQUE7QUFBQTtTQXBQVixBQUNFLEFBZUUsQUE2TkUsQUFFRSxBQUtFLEFBTVg7Ozs7O0VBNVBnQyxnQkFBTSxBOztrQkFBcEIsQSIsImZpbGUiOiJpbmRleC5qcz9lbnRyeSIsInNvdXJjZVJvb3QiOiIvVXNlcnMva2F0ZWdpYnNvbi9wb3J0Zm9saW8gMi4wIn0=
