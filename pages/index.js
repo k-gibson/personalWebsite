@@ -51,6 +51,10 @@ export default class Index extends React.Component {
                       about
                     </a>
                     <span />
+                    <a href="#resume" className="menuButton button fromCenter">
+                      resume
+                    </a>
+                    <span />
                     <a href="#portfolio" className="menuButton button fromLeft">
                       portfolio
                     </a>
@@ -76,103 +80,115 @@ export default class Index extends React.Component {
                     </a>
                   </div>
                 </div> */}
-                <div className="header">about me</div>
-                <Line
-                  x1={75}
-                  x2={250}
-                  y1={5}
-                  y2={5}
-                  stroke={{ color: "rgb(58, 58, 58)" }}
-                  strokeWidth={3}
-                />
-                <div className="aboutDescription">
+                <div className="top">
+                  <div className="header">about me</div>
+                  <Line
+                    x1={75}
+                    x2={250}
+                    y1={5}
+                    y2={5}
+                    stroke={{ color: "rgb(58, 58, 58)" }}
+                    strokeWidth={3}
+                  />
+                </div>
+                <section className="aboutDescription">
                   <div className="descriptionTagline">
                     Hello, my name is Kathrine Gibson.
-                    <br />I'm a student who is passionate about using technology
-                    to expand my creative process.
+                    <br />I'm a computer science student from Colorado.
                   </div>
-                  <div className="descriptionWords" width="200">
-                    <p>
-                      I have three goals in life (thus far): find a job that
-                      allows me to explore my passions while applying my hard
-                      work ethic and innate curiosity to improve my skill set as
-                      a programmer, complete a full length Ironman and finally,
-                      to build and live in a treehouse.
-                    </p>
-                    <br />
-                    <p>
-                      Front end developing is my cup of tea, but I'm not afraid
-                      of back end development to bring ideas to fruition. Beyond
-                      programming until my eyeballs fall out, I spend my free
-                      time training for triathlons, sneaking in as much time
-                      outside as possible, and practicing my social skills.
-                    </p>
+                  <div className="descriptionWords">
+                    <p>I also like treehouses, triathlons, and art museums</p>
                   </div>
-                </div>
-                <div className="selfPicture">
-                  <div class="image-cropper">
-                    <img
-                      className="profileImg"
-                      src="/static/profile.jpg"
-                      class="rounded"
-                    />
+
+                  <div className="contactProfiles">
+                    <ul className="contact">
+                      <li className="contactli">
+                        <a
+                          href="mailto:kathrinemgibson@gmail.com"
+                          target="_blank"
+                          onClick="ga('send', 'event', 'external page', 'visit', this.href);"
+                        >
+                          <img
+                            src="./static/img/logos/logo-email.svg"
+                            width="30"
+                            height="30"
+                            alt=""
+                          />
+                        </a>
+                      </li>
+                      <li className="contactli">
+                        <a
+                          href="https://github.com/k-gibson/"
+                          target="_blank"
+                          onClick="ga('send', 'event', 'external page', 'visit', this.href);"
+                        >
+                          <img
+                            src="./static/img/logos/logo-github.svg"
+                            width="30"
+                            height="30"
+                            alt=""
+                          />
+                        </a>
+                      </li>
+                      <li className="contactli">
+                        <a
+                          href="http://www.linkedin.com/in/kathrine-gibson"
+                          target="_blank"
+                          onClick="ga('send', 'event', 'external page', 'visit', this.href);"
+                        >
+                          <img
+                            src="./static/img/logos/logo-linkedin.svg"
+                            width="30"
+                            height="30"
+                            alt=""
+                          />
+                        </a>
+                      </li>
+                      <li className="contactli">
+                        <a
+                          href="https://twitter.com/kathrineFromCO"
+                          target="_blank"
+                          onClick="ga('send', 'event', 'external page', 'visit', this.href);"
+                        >
+                          <img
+                            src="./static/img/logos/logo-twitter.svg"
+                            width="30"
+                            height="30"
+                            alt=""
+                          />
+                        </a>
+                      </li>
+                    </ul>
                   </div>
+                </section>
+                <div className="picture">
+                  <img
+                    className="profileImage"
+                    src="./static/profile.png"
+                    alt="profile image"
+                  />
                 </div>
-                <a href="/resume" className="fancyPage">
-                  {" "}
-                  current resume
-                </a>
-                <div className="contactWords">
-                  <a href="mailto:kathrinemgibson@gmail.com" className="email">
-                    kathrinemgibson@gmail.com
-                  </a>
+              </section>
+            </ScrollableAnchor>
+
+            <ScrollableAnchor id={"resume"}>
+              <section
+                data-id="resume"
+                class="resumeSection"
+                data-viewport-min-height="100"
+              >
+                <div className="top">
+                  <div className="header">my resume</div>
+                  <Line
+                    x1={75}
+                    x2={250}
+                    y1={5}
+                    y2={5}
+                    stroke={{ color: "rgb(58, 58, 58)" }}
+                    strokeWidth={3}
+                  />
                 </div>
-                <div className="contactProfiles">
-                  <ul className="contact">
-                    <li className="contactli">
-                      <a
-                        href="https://github.com/k-gibson/"
-                        target="_blank"
-                        onClick="ga('send', 'event', 'external page', 'visit', this.href);"
-                      >
-                        <img
-                          src="./static/img/logos/logo-github.svg"
-                          width="40"
-                          height="40"
-                          alt=""
-                        />
-                      </a>
-                    </li>
-                    <li className="contactli">
-                      <a
-                        href="http://www.linkedin.com/in/kathrine-gibson"
-                        target="_blank"
-                        onClick="ga('send', 'event', 'external page', 'visit', this.href);"
-                      >
-                        <img
-                          src="./static/img/logos/logo-linkedin.svg"
-                          width="40"
-                          height="40"
-                          alt=""
-                        />
-                      </a>
-                    </li>
-                    <li className="contactli">
-                      <a
-                        href="https://twitter.com/kathrineFromCO"
-                        target="_blank"
-                        onClick="ga('send', 'event', 'external page', 'visit', this.href);"
-                      >
-                        <img
-                          src="./static/img/logos/logo-twitter.svg"
-                          width="40"
-                          height="40"
-                          alt=""
-                        />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+                <div className="currentResume">sdhkjfks</div>
               </section>
             </ScrollableAnchor>
 
@@ -182,7 +198,7 @@ export default class Index extends React.Component {
                 class="fullpageSection"
                 data-viewport-min-height="100"
               >
-                <div>
+                <div className="top">
                   <div className="header">my portfolio </div>
                   <Line
                     x1={75}

@@ -13,6 +13,7 @@ body {
 }
 
 .fullpageSection {
+  padding-top: 3%;
   height: 100vh;
 }
 
@@ -141,32 +142,27 @@ ABOUT
   display: inline-block;
   width: 30%;
 }
-
-.selfPicture {
-  position: absolute;
-  right: 450px;
-  top: 955px;
+.picture {
+  float: right;
+  margin-top: 0%;
 }
 
-.image-cropper {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 50%;
+.profileImage {
+  height: 50vh;
+  width: auto;
 }
 
-.profileImg {
-  height: auto;
-  width: 100%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
+/*
+RESUME
+*/
+
+.resumeSection {
+  padding-top: 3%;
+  height: 125vh;
+  background-color: rgb(204, 230, 243);
 }
 
-.fancyPage {
+.download {
   color: #88bbd6;
   font-family: "Markazi Text", serif;
   text-decoration: none;
@@ -174,8 +170,13 @@ ABOUT
   margin-left: 3%;
 }
 
-.fancyPage:hover {
+.download:hover {
   opacity: 0.6;
+}
+
+.currentResume {
+  height: 110vh;
+  width: 100vw;
 }
 
 /*
@@ -252,12 +253,8 @@ PORTFOLIO
 CONTACT
 */
 
-.contactWords {
-  padding-top: 10%;
-}
-
 .contactProfiles {
-  padding-left: 34%;
+  padding-left: 3%;
 }
 
 .contact {
@@ -268,22 +265,10 @@ CONTACT
 
 .contactli {
   display: inline;
-  padding: 10px 30px;
+  padding: 10px 20px;
 }
 
 .contactli:hover {
-  opacity: 0.6;
-}
-
-.email {
-  color: #88bbd6;
-  font-size: 1.5rem;
-  font-family: "Markazi Text", serif;
-  border-color: white;
-  padding-left: 40%;
-}
-
-.email:hover {
   opacity: 0.6;
 }
 
@@ -291,18 +276,18 @@ footer {
   width: 100vw;
   position: absolute;
   padding: 2.5rem;
-  background-color: #efefef;
+  background-color: rgb(204, 230, 243);
   font-size: 1 rem;
   color: #636363;
   font-family: "Markazi Text", serif;
-  padding-left: 25vw;
+  padding-left: 20vw;
 }
 
 footer a {
   text-decoration: none;
   border: none;
   cursor: pointer;
-  color: #88bbd6;
+  color: #636363;
 }
 
 span.right {
@@ -362,9 +347,6 @@ CSS for smaller screens
   /*
   ABOUT
   */
-  #about {
-    background-color: green;
-  }
 
   .aboutDescription {
     margin-left: 5%;
@@ -379,14 +361,10 @@ CSS for smaller screens
     width: 100%;
   }
 
-  .selfPicture {
+  .picture {
     display: none;
   }
 
-  .fancyPage {
-    margin-left: 3%;
-    font-size: 2rem;
-  }
   /*
 PORTFOLIO
 */
@@ -416,11 +394,6 @@ PORTFOLIO
   /*
 CONTACT
 */
-
-  .contactWords {
-    padding-top: 10%;
-    padding-left: 0;
-  }
 
   .contactProfiles {
     padding-left: 3%;
