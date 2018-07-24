@@ -16,13 +16,12 @@ export default class Index extends React.Component {
     return (
       <div className="siteMain">
         <head>
-          <title>Kathrine Gibson </title>
+          <title>Kathrine Gibson</title>
 
           {/* META DATA */}
-          <meta
-            name="description"
-            content="I am a computer science student passionate about creative problem solving."
-          />
+          <meta name="description" content="Personal Website" />
+          <meta name="keywords" content="kathrine gibson" />
+          <meta name="author" content="Kathrine Gibson" />
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0"
@@ -51,12 +50,8 @@ export default class Index extends React.Component {
                     about
                   </a>
                   <span />
-                  <a href="#portfolio" className="menuButton button fromCenter">
+                  <a href="#portfolio" className="menuButton button fromLeft">
                     portfolio
-                  </a>
-                  <span />
-                  <a href="#contact" className="menuButton button fromLeft">
-                    contact
                   </a>
                 </div>
               </div>
@@ -75,12 +70,8 @@ export default class Index extends React.Component {
                     about
                   </a>
                   <span />
-                  <a href="#portfolio" className="menuButton button fromCenter">
+                  <a href="#portfolio" className="menuButton button fromLeft">
                     portfolio
-                  </a>
-                  <span />
-                  <a href="#contact" className="menuButton button fromLeft">
-                    contact
                   </a>
                 </div>
               </div>
@@ -130,6 +121,57 @@ export default class Index extends React.Component {
                 {" "}
                 current resume
               </a>
+              <div className="contactWords">
+                <a href="mailto:kathrinemgibson@gmail.com" className="email">
+                  kathrinemgibson@gmail.com
+                </a>
+              </div>
+              <div className="contactProfiles">
+                <ul className="contact">
+                  <li className="contactli">
+                    <a
+                      href="https://github.com/k-gibson/"
+                      target="_blank"
+                      onClick="ga('send', 'event', 'external page', 'visit', this.href);"
+                    >
+                      <img
+                        src="./static/img/logos/logo-github.svg"
+                        width="40"
+                        height="40"
+                        alt=""
+                      />
+                    </a>
+                  </li>
+                  <li className="contactli">
+                    <a
+                      href="http://www.linkedin.com/in/kathrine-gibson"
+                      target="_blank"
+                      onClick="ga('send', 'event', 'external page', 'visit', this.href);"
+                    >
+                      <img
+                        src="./static/img/logos/logo-linkedin.svg"
+                        width="40"
+                        height="40"
+                        alt=""
+                      />
+                    </a>
+                  </li>
+                  <li className="contactli">
+                    <a
+                      href="https://twitter.com/kathrineFromCO"
+                      target="_blank"
+                      onClick="ga('send', 'event', 'external page', 'visit', this.href);"
+                    >
+                      <img
+                        src="./static/img/logos/logo-twitter.svg"
+                        width="40"
+                        height="40"
+                        alt=""
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </section>
           </ScrollableAnchor>
 
@@ -139,15 +181,17 @@ export default class Index extends React.Component {
               class="fullpageSection"
               data-viewport-min-height="100"
             >
-              <div className="header">my portfolio </div>
-              <Line
-                x1={75}
-                x2={250}
-                y1={5}
-                y2={5}
-                stroke={{ color: "rgb(58, 58, 58)" }}
-                strokeWidth={3}
-              />
+              <div>
+                <div className="header">my portfolio </div>
+                <Line
+                  x1={75}
+                  x2={250}
+                  y1={5}
+                  y2={5}
+                  stroke={{ color: "rgb(58, 58, 58)" }}
+                  strokeWidth={3}
+                />
+              </div>
               <section className="projectSection column left">
                 <nav class="projectNav">
                   <ul className="projects">
@@ -201,75 +245,6 @@ export default class Index extends React.Component {
                     </li>
                   </ul>
                 </nav>
-              </div>
-            </section>
-          </ScrollableAnchor>
-
-          <ScrollableAnchor id={"contact"}>
-            <section
-              data-id="contact"
-              class="fullpageSection"
-              data-viewport-min-height="100"
-            >
-              <div className="header"> contact me </div>
-              <Line
-                x1={75}
-                x2={250}
-                y1={5}
-                y2={5}
-                stroke={{ color: "rgb(58, 58, 58)" }}
-                strokeWidth={3}
-              />
-              <div className="contactWords">
-                <a href="mailto:kathrinemgibson@gmail.com" className="email">
-                  kathrinemgibson@gmail.com
-                </a>
-                <div className="contactProfiles">
-                  <ul className="contact">
-                    <li className="contactli">
-                      <a
-                        href="https://github.com/k-gibson/"
-                        target="_blank"
-                        onClick="ga('send', 'event', 'external page', 'visit', this.href);"
-                      >
-                        <img
-                          src="./static/img/logos/logo-github.svg"
-                          width="40"
-                          height="40"
-                          alt=""
-                        />
-                      </a>
-                    </li>
-                    <li className="contactli">
-                      <a
-                        href="http://www.linkedin.com/in/kathrine-gibson"
-                        target="_blank"
-                        onClick="ga('send', 'event', 'external page', 'visit', this.href);"
-                      >
-                        <img
-                          src="./static/img/logos/logo-linkedin.svg"
-                          width="40"
-                          height="40"
-                          alt=""
-                        />
-                      </a>
-                    </li>
-                    <li className="contactli">
-                      <a
-                        href="https://twitter.com/kathrineFromCO"
-                        target="_blank"
-                        onClick="ga('send', 'event', 'external page', 'visit', this.href);"
-                      >
-                        <img
-                          src="./static/img/logos/logo-twitter.svg"
-                          width="40"
-                          height="40"
-                          alt=""
-                        />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
               </div>
             </section>
           </ScrollableAnchor>
