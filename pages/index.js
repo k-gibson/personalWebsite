@@ -270,7 +270,9 @@ export default class Index extends React.Component {
                       </strong>
                       Beyond leading bi-weekly meetings and recruiting new
                       members, I formalized the club and bring speakers to
-                      campus to discuss relevant topics.
+                      campus to discuss relevant topics with the purpose of
+                      informing women and under-represented students in computer
+                      science of how to excel in the field.
                       <br />
                       <br />
                       <br />
