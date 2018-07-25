@@ -208,7 +208,7 @@ export default class Index extends React.Component {
                     <strong>
                       <a
                         className="download"
-                        href="/static/files/kathrine_gibson_resume.pdf"
+                        href="/static/Kathrine_Gibson_Resume.pdf"
                         download
                       >
                         "kathrine_gibson_resume.pdf"

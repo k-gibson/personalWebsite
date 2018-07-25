@@ -373,7 +373,7 @@ var Index = function (_React$Component) {
         }
       }, _react2.default.createElement("a", {
         className: "download",
-        href: "/static/files/kathrine_gibson_resume.pdf",
+        href: "/static/Kathrine_Gibson_Resume.pdf",
         download: true,
         __source: {
           fileName: _jsxFileName,
