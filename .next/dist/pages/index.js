@@ -195,39 +195,48 @@ var Index = function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 85
         }
-      })), _react2.default.createElement("section", { className: "aboutDescription", __source: {
+      })), _react2.default.createElement("section", { className: "aboutSection", __source: {
           fileName: _jsxFileName,
           lineNumber: 94
         }
-      }, _react2.default.createElement("div", { className: "descriptionTagline", __source: {
+      }, _react2.default.createElement("div", { className: "aboutDescription", __source: {
           fileName: _jsxFileName,
           lineNumber: 95
+        }
+      }, _react2.default.createElement("div", { className: "descriptionTagline", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 96
         }
       }, "Hello, my name is Kathrine Gibson.", _react2.default.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 97
+          lineNumber: 98
         }
-      }), "I'm a computer science student from Colorado."), _react2.default.createElement("div", { className: "descriptionWords", __source: {
+      }), "I'm a computer science student at Gonzaga University."), _react2.default.createElement("div", { className: "descriptionWords", __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 101
         }
       }, _react2.default.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 102
         }
-      }, "I also like treehouses, triathlons, and art museums")), _react2.default.createElement("div", { className: "contactProfiles", __source: {
+      }, "Learning new things is my favorite pastime, which is a big reason as to why I chose to study computer science since technology is constantly changing. Another big reason is that I see technology as a way to expand my creative process and can spend hours perfecting a design. The best example of this is this website, which is likely to continue evolving in the future as I learn more about website design."), _react2.default.createElement("p", {
+        __source: {
           fileName: _jsxFileName,
-          lineNumber: 103
+          lineNumber: 112
+        }
+      }, "Besides programming, I like to research treehouses, train for triathlons, meet new dogs, and go to art museums.")), _react2.default.createElement("div", { className: "contactProfiles", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 119
         }
       }, _react2.default.createElement("ul", { className: "contact", __source: {
           fileName: _jsxFileName,
-          lineNumber: 104
+          lineNumber: 120
         }
       }, _react2.default.createElement("li", { className: "contactli", __source: {
           fileName: _jsxFileName,
-          lineNumber: 105
+          lineNumber: 121
         }
       }, _react2.default.createElement("a", {
         href: "mailto:kathrinemgibson@gmail.com",
@@ -235,7 +244,7 @@ var Index = function (_React$Component) {
         onClick: "ga('send', 'event', 'external page', 'visit', this.href);",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 106
+          lineNumber: 122
         }
       }, _react2.default.createElement("img", {
         src: "./static/img/logos/logo-email.svg",
@@ -244,11 +253,11 @@ var Index = function (_React$Component) {
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 111
+          lineNumber: 127
         }
       }))), _react2.default.createElement("li", { className: "contactli", __source: {
           fileName: _jsxFileName,
-          lineNumber: 119
+          lineNumber: 135
         }
       }, _react2.default.createElement("a", {
         href: "https://github.com/k-gibson/",
@@ -256,7 +265,7 @@ var Index = function (_React$Component) {
         onClick: "ga('send', 'event', 'external page', 'visit', this.href);",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 120
+          lineNumber: 136
         }
       }, _react2.default.createElement("img", {
         src: "./static/img/logos/logo-github.svg",
@@ -265,11 +274,11 @@ var Index = function (_React$Component) {
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 125
+          lineNumber: 141
         }
       }))), _react2.default.createElement("li", { className: "contactli", __source: {
           fileName: _jsxFileName,
-          lineNumber: 133
+          lineNumber: 149
         }
       }, _react2.default.createElement("a", {
         href: "http://www.linkedin.com/in/kathrine-gibson",
@@ -277,7 +286,7 @@ var Index = function (_React$Component) {
         onClick: "ga('send', 'event', 'external page', 'visit', this.href);",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 134
+          lineNumber: 150
         }
       }, _react2.default.createElement("img", {
         src: "./static/img/logos/logo-linkedin.svg",
@@ -286,11 +295,11 @@ var Index = function (_React$Component) {
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 139
+          lineNumber: 155
         }
       }))), _react2.default.createElement("li", { className: "contactli", __source: {
           fileName: _jsxFileName,
-          lineNumber: 147
+          lineNumber: 163
         }
       }, _react2.default.createElement("a", {
         href: "https://twitter.com/kathrineFromCO",
@@ -298,7 +307,7 @@ var Index = function (_React$Component) {
         onClick: "ga('send', 'event', 'external page', 'visit', this.href);",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 148
+          lineNumber: 164
         }
       }, _react2.default.createElement("img", {
         src: "./static/img/logos/logo-twitter.svg",
@@ -307,11 +316,11 @@ var Index = function (_React$Component) {
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 153
+          lineNumber: 169
         }
       })))))), _react2.default.createElement("div", { className: "picture", __source: {
           fileName: _jsxFileName,
-          lineNumber: 164
+          lineNumber: 180
         }
       }, _react2.default.createElement("img", {
         className: "profileImage",
@@ -319,11 +328,11 @@ var Index = function (_React$Component) {
         alt: "profile image",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 165
+          lineNumber: 181
         }
-      })))), _react2.default.createElement(_reactScrollableAnchor2.default, { id: "resume", __source: {
+      }))))), _react2.default.createElement(_reactScrollableAnchor2.default, { id: "resume", __source: {
           fileName: _jsxFileName,
-          lineNumber: 174
+          lineNumber: 191
         }
       }, _react2.default.createElement("section", {
         "data-id": "resume",
@@ -331,15 +340,15 @@ var Index = function (_React$Component) {
         "data-viewport-min-height": "100",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 175
+          lineNumber: 192
         }
       }, _react2.default.createElement("div", { className: "top", __source: {
           fileName: _jsxFileName,
-          lineNumber: 180
+          lineNumber: 197
         }
       }, _react2.default.createElement("div", { className: "header", __source: {
           fileName: _jsxFileName,
-          lineNumber: 181
+          lineNumber: 198
         }
       }, "my resume"), _react2.default.createElement(_reactShapes.Line, {
         x1: 75,
@@ -350,31 +359,420 @@ var Index = function (_React$Component) {
         strokeWidth: 3,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 182
+          lineNumber: 199
         }
-      })), _react2.default.createElement("div", { className: "currentResume", __source: {
+      }), _react2.default.createElement("div", {
+        __source: {
           fileName: _jsxFileName,
-          lineNumber: 191
+          lineNumber: 207
         }
-      }, "sdhkjfks"))), _react2.default.createElement(_reactScrollableAnchor2.default, { id: "portfolio", __source: {
+      }, _react2.default.createElement("strong", {
+        __source: {
           fileName: _jsxFileName,
-          lineNumber: 195
+          lineNumber: 208
+        }
+      }, _react2.default.createElement("a", {
+        className: "download",
+        href: "/static/files/kathrine_gibson_resume.pdf",
+        download: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 209
+        }
+      }, "\"kathrine_gibson_resume.pdf\"")))), _react2.default.createElement("div", { className: "currentResume", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 219
+        }
+      }, _react2.default.createElement("div", { className: "education", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 220
+        }
+      }, _react2.default.createElement("p", { style: { textAlign: "center" }, __source: {
+          fileName: _jsxFileName,
+          lineNumber: 221
+        }
+      }, _react2.default.createElement("strong", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 222
+        }
+      }, "Education"), _react2.default.createElement("hr", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 223
+        }
+      })), _react2.default.createElement("p", { style: { textAlign: "left" }, __source: {
+          fileName: _jsxFileName,
+          lineNumber: 225
+        }
+      }, _react2.default.createElement("strong", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 226
+        }
+      }, "Gonzaga University | Computer Science and Computational Thinking, B.A.", _react2.default.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 229
+        }
+      }), "Expected May 2020"), _react2.default.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 232
+        }
+      }), _react2.default.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 233
+        }
+      }), "Relevant Coursework:", _react2.default.createElement("ul", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 235
+        }
+      }, _react2.default.createElement("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 236
+        }
+      }, "Computer Science I"), _react2.default.createElement("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 237
+        }
+      }, "Computer Science II"), _react2.default.createElement("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 238
+        }
+      }, "Discrete Structures"), _react2.default.createElement("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 239
+        }
+      }, "Algorithmic Art"), _react2.default.createElement("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 240
+        }
+      }, "Algorithmic and Abstract Data Structures "), _react2.default.createElement("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 241
+        }
+      }, "Object Oriented and Event Oriented Programming "), _react2.default.createElement("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 242
+        }
+      }, "Computer Graphics")), _react2.default.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 244
+        }
+      }), _react2.default.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 245
+        }
+      }), _react2.default.createElement("strong", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 246
+        }
+      }, "Evergreen High School", _react2.default.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 248
+        }
+      }), "Graduated May 2016"), _react2.default.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 251
+        }
+      }), _react2.default.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 252
+        }
+      }), "Was on the silver honor roll and gold honor roll throughout high school and became passionate about creative visualization from photoshop and film photography courses."), _react2.default.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 258
+        }
+      }), _react2.default.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 259
+        }
+      }), _react2.default.createElement("p", { style: { textAlign: "center" }, __source: {
+          fileName: _jsxFileName,
+          lineNumber: 260
+        }
+      }, _react2.default.createElement("strong", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 261
+        }
+      }, "Activities"), _react2.default.createElement("hr", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 262
+        }
+      })), _react2.default.createElement("p", { style: { textAlign: "left" }, __source: {
+          fileName: _jsxFileName,
+          lineNumber: 264
+        }
+      }, _react2.default.createElement("strong", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 265
+        }
+      }, "Women in Computing Club| Class Representative and President", _react2.default.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 268
+        }
+      }), _react2.default.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 269
+        }
+      })), "Beyond leading bi-weekly meetings and recruiting new members, I formalized the club and bring speakers to campus to discuss relevant topics.", _react2.default.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 274
+        }
+      }), _react2.default.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 275
+        }
+      }), _react2.default.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 276
+        }
+      }), _react2.default.createElement("strong", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 277
+        }
+      }, "Makers and Developers Club | Member", _react2.default.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 279
+        }
+      }), _react2.default.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 280
+        }
+      })), "Led a team to begin design an app to be used by another on-campus club.", _react2.default.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 284
+        }
+      }), _react2.default.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 285
+        }
+      }), _react2.default.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 286
+        }
+      }), _react2.default.createElement("strong", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 287
+        }
+      }, "Pacific NW Regional ACM Programming Contest", _react2.default.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 289
+        }
+      }), _react2.default.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 290
+        }
+      })), "Was a member of three-person team which competed in Division II.", _react2.default.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 294
+        }
+      }), _react2.default.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 295
+        }
+      }), _react2.default.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 296
+        }
+      }), _react2.default.createElement("strong", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 297
+        }
+      }, "Gonzaga Experiential Leadership Institute"), _react2.default.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 298
+        }
+      }), _react2.default.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 299
+        }
+      }), "Accepted into Gonzaga's Experiential Leadership program for sophomores, and contributed to the creation and presentation of a project that would result in a positive change on campus.")), _react2.default.createElement("div", { className: "mySkills", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 307
+        }
+      }, _react2.default.createElement("p", { style: { textAlign: "center" }, __source: {
+          fileName: _jsxFileName,
+          lineNumber: 308
+        }
+      }, _react2.default.createElement("strong", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 309
+        }
+      }, "Skills"), _react2.default.createElement("hr", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 310
+        }
+      }), _react2.default.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 311
+        }
+      })), _react2.default.createElement("div", { className: "skillsContent", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 313
+        }
+      }, _react2.default.createElement("div", { className: "skillsColumn", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 314
+        }
+      }, _react2.default.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 315
+        }
+      }, "Java"), _react2.default.createElement("div", { "class": "container", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 316
+        }
+      }, _react2.default.createElement("div", { "class": "skills java", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 317
+        }
+      }, "90%")), _react2.default.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 320
+        }
+      }, "HTML"), _react2.default.createElement("div", { "class": "container", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 321
+        }
+      }, _react2.default.createElement("div", { "class": "skills html", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 322
+        }
+      }, "90%")), _react2.default.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 324
+        }
+      }, "CSS"), _react2.default.createElement("div", { "class": "container", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 325
+        }
+      }, _react2.default.createElement("div", { "class": "skills css", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 326
+        }
+      }, "90%")), _react2.default.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 328
+        }
+      }, " C++ "), _react2.default.createElement("div", { "class": "container", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 329
+        }
+      }, _react2.default.createElement("div", { "class": "skills c", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 330
+        }
+      }, "90%"))), _react2.default.createElement("div", { className: "skillsColumn", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 333
+        }
+      }, _react2.default.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 334
+        }
+      }, "Processing"), _react2.default.createElement("div", { "class": "container", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 335
+        }
+      }, _react2.default.createElement("div", { "class": "skills pro", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 336
+        }
+      }, "90%")), _react2.default.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 338
+        }
+      }, "Photoshop"), _react2.default.createElement("div", { "class": "container", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 339
+        }
+      }, _react2.default.createElement("div", { "class": "skills photoshop", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 340
+        }
+      }, "90%")), _react2.default.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 342
+        }
+      }, "Android Studio"), _react2.default.createElement("div", { "class": "container", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 343
+        }
+      }, _react2.default.createElement("div", { "class": "skills as", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 344
+        }
+      }, "90%")))))))), _react2.default.createElement(_reactScrollableAnchor2.default, { id: "portfolio", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 353
         }
       }, _react2.default.createElement("section", {
         "data-id": "portfolio",
-        "class": "fullpageSection",
+        "class": "fullPortfolio",
         "data-viewport-min-height": "100",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 196
+          lineNumber: 354
         }
       }, _react2.default.createElement("div", { className: "top", __source: {
           fileName: _jsxFileName,
-          lineNumber: 201
+          lineNumber: 359
         }
       }, _react2.default.createElement("div", { className: "header", __source: {
           fileName: _jsxFileName,
-          lineNumber: 202
+          lineNumber: 360
         }
       }, "my portfolio "), _react2.default.createElement(_reactShapes.Line, {
         x1: 75,
@@ -385,130 +783,121 @@ var Index = function (_React$Component) {
         strokeWidth: 3,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 203
+          lineNumber: 361
         }
-      })), _react2.default.createElement("section", { className: "projectSection column left", __source: {
+      })), _react2.default.createElement("div", { className: "projects", __source: {
           fileName: _jsxFileName,
-          lineNumber: 212
+          lineNumber: 370
         }
-      }, _react2.default.createElement("nav", { "class": "projectNav", __source: {
+      }, _react2.default.createElement("div", { "class": "column", __source: {
           fileName: _jsxFileName,
-          lineNumber: 213
+          lineNumber: 371
         }
-      }, _react2.default.createElement("ul", { className: "projects", __source: {
+      }, _react2.default.createElement("div", { "class": "singleProject", __source: {
           fileName: _jsxFileName,
-          lineNumber: 214
+          lineNumber: 372
         }
-      }, _react2.default.createElement("li", { className: "projectLinks", __source: {
+      }, _react2.default.createElement("img", { src: "./static/img/project-header/planterBox.jpg", __source: {
           fileName: _jsxFileName,
-          lineNumber: 215
+          lineNumber: 373
         }
-      }, _react2.default.createElement("a", { href: "#PlanterBox", __source: {
-          fileName: _jsxFileName,
-          lineNumber: 216
-        }
-      }, "PlanterBox")), _react2.default.createElement("li", { className: "projectLinks", __source: {
-          fileName: _jsxFileName,
-          lineNumber: 218
-        }
-      }, _react2.default.createElement("a", { href: "#SpaceRace", __source: {
-          fileName: _jsxFileName,
-          lineNumber: 219
-        }
-      }, "Space Race"))))), _react2.default.createElement("div", { className: "projectList column right", __source: {
-          fileName: _jsxFileName,
-          lineNumber: 224
-        }
-      }, _react2.default.createElement("nav", {
+      }), _react2.default.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 225
+          lineNumber: 374
         }
-      }, _react2.default.createElement("ul", {
+      }), _react2.default.createElement("strong", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 226
+          lineNumber: 375
         }
-      }, _react2.default.createElement("li", {
+      }, "Planter Box"), " ", _react2.default.createElement("sp", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 227
+          lineNumber: 375
         }
-      }, _react2.default.createElement(_reactScrollableAnchor2.default, { id: "PlanterBox", __source: {
+      }), "An app built as a summer project using Android Studio that would allow users to keep track of when to water each of their plants based on each plant's individual needs."), _react2.default.createElement("div", { "class": "singleProject", __source: {
           fileName: _jsxFileName,
-          lineNumber: 228
+          lineNumber: 380
         }
-      }, _react2.default.createElement("div", {
-        className: "singularProject",
-        "data-viewport-min-height": "100",
+      }, _react2.default.createElement("img", { src: "./static/img/project-header/main.jpg", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 381
+        }
+      }), _react2.default.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 229
+          lineNumber: 382
         }
-      }, "PlanterBox", _react2.default.createElement("img", {
-        src: "/static/img/project-header/PlanterBoxDemoPicture.jpg",
-        alt: "",
+      }), _react2.default.createElement("strong", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 234
+          lineNumber: 383
         }
-      }), _react2.default.createElement("div", {
-        className: "PlanterBox",
-        "data-viewport-min-height": "100",
+      }, "Space Race"), " ", _react2.default.createElement("sp", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 238
+          lineNumber: 383
         }
-      })))), _react2.default.createElement("li", {
+      }), "A classroom project to create a Java-based game rooted in Yahtzee fundamentals using Java swing. Built in a team of three over the course of half a semester.")), _react2.default.createElement("div", { "class": "column", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 389
+        }
+      }, _react2.default.createElement("div", { "class": "singleProject", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 390
+        }
+      }, _react2.default.createElement("span", { "class": "processing", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 391
+        }
+      }, _react2.default.createElement("img", { src: "./static/paintedSky.gif", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 392
+        }
+      }), " ", _react2.default.createElement("img", { src: "./static/interactiveSky.gif", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 393
+        }
+      }), _react2.default.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 245
+          lineNumber: 394
         }
-      }, _react2.default.createElement(_reactScrollableAnchor2.default, { id: "SpaceRace", __source: {
-          fileName: _jsxFileName,
-          lineNumber: 246
-        }
-      }, _react2.default.createElement("div", {
-        className: "singularProject",
-        "data-viewport-min-height": "100",
+      })), _react2.default.createElement("strong", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 247
+          lineNumber: 396
         }
-      }, "Space Race", _react2.default.createElement("img", {
-        src: "/static/img/project-header/SpaceRaceDemoPicture.jpg",
-        alt: "",
+      }, "Processing Projects"), _react2.default.createElement("sp", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 252
+          lineNumber: 397
         }
-      }), _react2.default.createElement("div", {
-        className: "SpaceRace",
-        "data-viewport-min-height": "100",
+      }), " A sample of classroom projects which relied on", " ", _react2.default.createElement("a", { href: "https://processing.org/", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 398
+        }
+      }, "Processing"), " in order to create coded visualization as an alternative to Photoshop.")))))), _react2.default.createElement("footer", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 256
-        }
-      })))))))))), _react2.default.createElement("footer", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 269
+          lineNumber: 407
         }
       }, "\xA9 2018 Kathrine Gibson", _react2.default.createElement("span", { "class": "right", __source: {
           fileName: _jsxFileName,
-          lineNumber: 271
+          lineNumber: 409
         }
       }, _react2.default.createElement("a", { href: "mailto:kathrinemgibson@gmail.com", __source: {
           fileName: _jsxFileName,
-          lineNumber: 272
+          lineNumber: 410
         }
       }, "Email"), "/", _react2.default.createElement("a", { href: "https://github.com/k-gibson/", __source: {
           fileName: _jsxFileName,
-          lineNumber: 274
+          lineNumber: 412
         }
       }, "GitHub"), "/", _react2.default.createElement("a", { href: "http://www.linkedin.com/in/kathrine-gibson", __source: {
           fileName: _jsxFileName,
-          lineNumber: 276
+          lineNumber: 414
         }
       }, "LinkedIn")))));
     }
@@ -518,4 +907,4 @@ var Index = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Index;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2luZGV4LmpzIl0sIm5hbWVzIjpbIkxpbmsiLCJTY3JvbGxhYmxlQW5jaG9yIiwiRmFkZSIsIlJlY3RhbmdsZSIsIkNpcmNsZSIsIkVsbGlwc2UiLCJMaW5lIiwiUG9seWxpbmUiLCJDb3JuZXJCb3giLCJUcmlhbmdsZSIsIkluZGV4IiwiY29sb3IiLCJSZWFjdCIsIkNvbXBvbmVudCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsQUFBTzs7OztBQUNQLEFBQU87Ozs7QUFDUCxBQUFPOzs7O0FBQ1AsQUFDRSxBQUNBLEFBQ0EsQUFDQSxBQUNBLEFBQ0EsQUFDQTs7Ozs7OztJLEFBR21COzs7Ozs7Ozs7Ozs2QkFDVixBQUNQOzZCQUNFLGNBQUEsU0FBSyxXQUFMLEFBQWU7b0JBQWY7c0JBQUEsQUFDRTtBQURGO09BQUEsa0JBQ0UsY0FBQTs7b0JBQUE7c0JBQUEsQUFDRTtBQURGO0FBQUEseUJBQ0UsY0FBQTs7b0JBQUE7c0JBQUE7QUFBQTtBQUFBLFNBREYsQUFDRSxBQUdBLDREQUFNLE1BQU4sQUFBVyxlQUFjLFNBQXpCLEFBQWlDO29CQUFqQztzQkFKRixBQUlFLEFBQ0E7QUFEQTtrREFDTSxNQUFOLEFBQVcsWUFBVyxTQUF0QixBQUE4QjtvQkFBOUI7c0JBTEYsQUFLRSxBQUNBO0FBREE7a0RBQ00sTUFBTixBQUFXLFVBQVMsU0FBcEIsQUFBNEI7b0JBQTVCO3NCQU5GLEFBTUUsQUFDQTtBQURBOztjQUNBLEFBQ08sQUFDTDtpQkFGRixBQUVVOztvQkFGVjtzQkFQRixBQU9FLEFBS0E7QUFMQTtBQUNFLGtEQUlJLE1BQU4sQUFBVyxxQkFBb0IsS0FBL0IsQUFBbUM7b0JBQW5DO3NCQWJKLEFBQ0UsQUFZRSxBQUVGO0FBRkU7MkJBRUYsY0FBQTs7b0JBQUE7c0JBQUEsQUFDRTtBQURGO0FBQUEseUJBQ0UsY0FBQTs7b0JBQUE7c0JBQUEsQUFDRTtBQURGO0FBQUEseUJBQ0UsY0FBQTttQkFBQSxBQUNV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QVI7c0JBQUE7QUFBQTtTQUZKLEFBQ0UsQUFDRSxBQUVGLGdDQUFBLGNBQUEsUUFBSSxXQUFKLEFBQWM7b0JBQWQ7c0JBQUEsQUFDRTtBQURGO3lCQUNFLGNBQUEsT0FBRyxNQUFILEFBQVE7b0JBQVI7c0JBQUE7QUFBQTtTQXZCVixBQWdCRSxBQUNFLEFBQ0UsQUFJRSxBQUNFLEFBS1IsbUNBQUEsY0FBQSxTQUFLLFdBQUwsQUFBZTtvQkFBZjtzQkFBQSxBQUNFO0FBREY7eUJBQ0UsY0FBQTs7b0JBQUE7c0JBQUEsQUFDRTtBQURGO0FBQUEseUJBQ0UsY0FBQTs7b0JBQUE7c0JBQUEsQUFDRTtBQURGO0FBQUEseUJBQ0UsY0FBQTs7b0JBQUE7c0JBQUEsQUFDRTtBQURGO0FBQUEseUJBQ0UsQUFBQyxpREFBaUIsSUFBbEIsQUFBc0I7b0JBQXRCO3NCQUFBLEFBQ0U7QUFERjt5QkFDRSxjQUFBO21CQUFBLEFBQ1ksQUFDVjtvQ0FGRixBQUUyQjs7b0JBRjNCO3NCQUFBO0FBQUE7QUFDRSxTQUlBO2FBQUEsQUFDTSxBQUNKO2FBRkYsQUFFTTs7b0JBRk47c0JBTEYsQUFLRSxBQUlBO0FBSkE7QUFDRTttQkFHRixBQUNZLEFBQ1Y7b0NBRkYsQUFFMkI7O29CQUYzQjtzQkFaUixBQUNFLEFBQ0UsQUFDRSxBQVNFLEFBT047QUFQTTtBQUNFLDZCQU1SLGNBQUE7O29CQUFBO3NCQUFBLEFBQ0U7QUFERjtBQUFBLHlCQUNFLEFBQUMsaURBQWlCLElBQWxCLEFBQXNCO29CQUF0QjtzQkFBQSxBQUNFO0FBREY7eUJBQ0UsY0FBQTttQkFBQSxBQUNZLEFBQ1Y7b0NBRkYsQUFFMkI7O29CQUYzQjtzQkFBQTtBQUFBO0FBQ0UsU0FJQTthQUFBLEFBQ00sQUFDSjthQUZGLEFBRU07O29CQUZOO3NCQUxGLEFBS0UsQUFJQTtBQUpBO0FBQ0U7bUJBR0YsQUFDWSxBQUNWO29DQUZGLEFBRTJCOztvQkFGM0I7c0JBaE9wQixBQUNFLEFBa0tFLEFBQ0UsQUE0QkUsQUFDRSxBQUNFLEFBbUJFLEFBQ0UsQUFDRSxBQVNFLEFBYWxCO0FBYmtCO0FBQ0UsbUNBWXBCLGNBQUE7O29CQUFBO3NCQUFBO0FBQUE7QUFBQSxTQUVFLDZDQUFBLGNBQUEsVUFBTSxTQUFOLEFBQVk7b0JBQVo7c0JBQUEsQUFDRTtBQURGO3lCQUNFLGNBQUEsT0FBRyxNQUFILEFBQVE7b0JBQVI7c0JBQUE7QUFBQTtTQURGLEFBQ0UsVUFFQSxxQkFBQSxjQUFBLE9BQUcsTUFBSCxBQUFRO29CQUFSO3NCQUFBO0FBQUE7U0FIRixBQUdFLFdBRUEscUJBQUEsY0FBQSxPQUFHLE1BQUgsQUFBUTtvQkFBUjtzQkFBQTtBQUFBO1NBcFFWLEFBQ0UsQUFlRSxBQTZPRSxBQUVFLEFBS0UsQUFNWDs7Ozs7RUE1UWdDLGdCQUFNLEE7O2tCQUFwQixBIiwiZmlsZSI6ImluZGV4LmpzP2VudHJ5Iiwic291cmNlUm9vdCI6Ii9Vc2Vycy9rYXRlZ2lic29uL3BvcnRmb2xpbyAyLjAifQ==
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2luZGV4LmpzIl0sIm5hbWVzIjpbIkxpbmsiLCJTY3JvbGxhYmxlQW5jaG9yIiwiRmFkZSIsIlJlY3RhbmdsZSIsIkNpcmNsZSIsIkVsbGlwc2UiLCJMaW5lIiwiUG9seWxpbmUiLCJDb3JuZXJCb3giLCJUcmlhbmdsZSIsIkluZGV4IiwiY29sb3IiLCJ0ZXh0QWxpZ24iLCJSZWFjdCIsIkNvbXBvbmVudCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsQUFBTzs7OztBQUNQLEFBQU87Ozs7QUFDUCxBQUFPOzs7O0FBQ1AsQUFDRSxBQUNBLEFBQ0EsQUFDQSxBQUNBLEFBQ0EsQUFDQTs7Ozs7OztJLEFBR21COzs7Ozs7Ozs7Ozs2QkFDVixBQUNQOzZCQUNFLGNBQUEsU0FBSyxXQUFMLEFBQWU7b0JBQWY7c0JBQUEsQUFDRTtBQURGO09BQUEsa0JBQ0UsY0FBQTs7b0JBQUE7c0JBQUEsQUFDRTtBQURGO0FBQUEseUJBQ0UsY0FBQTs7b0JBQUE7c0JBQUE7QUFBQTtBQUFBLFNBREYsQUFDRSxBQUdBLDREQUFNLE1BQU4sQUFBVyxlQUFjLFNBQXpCLEFBQWlDO29CQUFqQztzQkFKRixBQUlFLEFBQ0E7QUFEQTtrREFDTSxNQUFOLEFBQVcsWUFBVyxTQUF0QixBQUE4QjtvQkFBOUI7c0JBTEYsQUFLRSxBQUNBO0FBREE7a0RBQ00sTUFBTixBQUFXLFVBQVMsU0FBcEIsQUFBNEI7b0JBQTVCO3NCQU5GLEFBTUUsQUFDQTtBQURBOztjQUNBLEFBQ08sQUFDTDtpQkFGRixBQUVVOztvQkFGVjtzQkFQRixBQU9FLEFBS0E7QUFMQTtBQUNFLGtEQUlJLE1BQU4sQUFBVyxxQkFBb0IsS0FBL0IsQUFBbUM7b0JBQW5DO3NCQWJKLEFBQ0UsQUFZRSxBQUVGO0FBRkU7MkJBRUYsY0FBQTs7b0JBQUE7c0JBQUEsQUFDRTtBQURGO0FBQUEseUJBQ0UsY0FBQTs7b0JBQUE7c0JBQUEsQUFDRTtBQURGO0FBQUEseUJBQ0UsY0FB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O0FBRkU7QUFBQSwyQkFFRixjQUFBOztvQkFBQTtzQkFBQTtBQUFBO0FBQUEsU0FORixBQU1FLEFBQ0E7O29CQUFBO3NCQVBGLEFBT0U7QUFBQTtBQUFBLFVBQXNELG1EQVB4RCxBQVFFLHFCQUFBLGNBQUEsT0FBRyxNQUFILEFBQVE7b0JBQVI7c0JBQUE7QUFBQTtTQVJGLEFBUUUsZUE5V2QsQUFDRSxBQWdVRSxBQUNFLEFBZ0JFLEFBbUJFLEFBQ0UsQUFpQlYsaUdBQUEsY0FBQTs7b0JBQUE7c0JBQUE7QUFBQTtBQUFBLFNBRUUsNkNBQUEsY0FBQSxVQUFNLFNBQU4sQUFBWTtvQkFBWjtzQkFBQSxBQUNFO0FBREY7eUJBQ0UsY0FBQSxPQUFHLE1BQUgsQUFBUTtvQkFBUjtzQkFBQTtBQUFBO1NBREYsQUFDRSxVQUVBLHFCQUFBLGNBQUEsT0FBRyxNQUFILEFBQVE7b0JBQVI7c0JBQUE7QUFBQTtTQUhGLEFBR0UsV0FFQSxxQkFBQSxjQUFBLE9BQUcsTUFBSCxBQUFRO29CQUFSO3NCQUFBO0FBQUE7U0E5WVYsQUFDRSxBQWVFLEFBdVhFLEFBRUUsQUFLRSxBQU1YOzs7OztFQXRaZ0MsZ0JBQU0sQTs7a0JBQXBCLEEiLCJmaWxlIjoiaW5kZXguanM/ZW50cnkiLCJzb3VyY2VSb290IjoiL1VzZXJzL2thdGVnaWJzb24vcG9ydGZvbGlvIDIuMCJ9
